@@ -29,7 +29,6 @@ nav{
 }
 ul{
     display: flex;
-    justify-content: space-between;
     list-style: none;
 }
 ul li{
@@ -87,9 +86,6 @@ a:hover{
 .home button{
    margin-top: 20px;
 }
-
-
-
 
 #about {
 text-align: center;
@@ -174,7 +170,7 @@ padding-top: 20px;
 #projects h2{
     font-size: 30px;
     color: #ff004f;
-    
+    text-decoration: none;
 }
 #project-tile{
     margin-bottom: 40px;
@@ -190,8 +186,6 @@ img{
     display: flex;
     gap: 10px;
 }
-
-
 
 .contact{
     padding-bottom: 20px;
@@ -298,8 +292,6 @@ display: block;
         grid-template-columns: repeat(1,1fr);
        gap:50px
     }
-    
-   
     form input, form textarea{
         width: 100%;
     }
@@ -321,7 +313,6 @@ display: block;
         grid-template-columns: repeat(2,1fr);
        gap:50px
     }
-    
 }
 @media only screen and (min-width:1024px){
     body{
@@ -332,5 +323,13 @@ display: block;
        gap:50px
     }
     
+}
+@media only screen and (max-width:450px){
+    .bar{
+    flex-wrap: wrap;
+    }
+    #about p{
+        font-size: 15px;
+    }
 }
 
