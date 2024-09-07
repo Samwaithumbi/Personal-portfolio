@@ -523,6 +523,12 @@ img{
     display: flex;
     gap: 10px;
 }
+#projects #project-title a{
+    text-decoration: underline;
+    color: black
+}
+
+/*contact*/
 
 .contact{
     padding-bottom: 20px;
@@ -600,18 +606,6 @@ form btn2{
     cursor: pointer;
     margin-top: 20px;
 }
-.copyright{
-    width: 100%;
-    text-align: center;
-    padding: 25px;
-    background: #262626;
-    font-weight: 300;
-    
-}
-.copyright i{
-    background: #ff004f;
-}
-
 
 #msg{
 color: #61b752;
