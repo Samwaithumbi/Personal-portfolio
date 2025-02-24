@@ -6,6 +6,9 @@
     font-family: sans-serif;
     color: white;
 }
+body{
+    background-color: #130f40;
+}
 #header {
     width: 100%;
     display: flex;
@@ -205,44 +208,61 @@ li a:hover {
   }
   
 /*projects*/
-
-#projects{
-    height:100%;
-    background-color: darkgray;
+#projects {
     text-align: center;
-    text-wrap: wrap;
-    grid-template-columns: (auto-fit, minmax(300px,1fr));
-    padding:3% ;
-    
-}
-#projects h2{
-    font-size: 30px;
-   color: black;
-    text-decoration: none;
-   margin-bottom: 10px; 
+    padding: 50px 20px;
+    background: #130f40;
 }
 
-#Images{
+#project {
     display: grid;
-    grid-template-columns: repeat(3,0.5fr);
-    gap:35px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
-img{
+
+#project div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#project div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#project img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    border-radius: 10px;
 }
-#project-title a {
-    text-decoration: none; /* This removes the underline */
-    display: block;
-    font-size: 1.2em;
-    color: black;
-  }
-  
-  #project-title a:hover {
-    color: #00509e;
-    text-decoration: none; /* This ensures the underline is not shown on hover */
-  }
-  
+
+#project h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #333;
+}
+
+#project p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+ #project a{
+    margin-top: 20px;
+    background-color: black;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 12px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+}
+
 /*contant*/
 .contact{
     padding-bottom: 20px;
