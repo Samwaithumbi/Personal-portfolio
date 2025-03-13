@@ -4,6 +4,7 @@ const navBar = document.getElementById('nav-bar');
 toggleBtn.addEventListener('click', () => {
     if (navBar.style.right === '-300px') {
         navBar.style.right = '0';
+        navBar.style.backgroundColor="gray"
     } else {
         navBar.style.right = '-300px';
     }
