@@ -328,7 +328,7 @@ form input, form textarea{
     outline: none;
     margin: 15px 0;
     padding: 15px;
-    color: #fff;
+    color: black;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -342,6 +342,7 @@ form btn2{
 color: #61b752;
 margin-top: -40px;
 display: block;
+margin-bottom: 60px;
 }
 
 
