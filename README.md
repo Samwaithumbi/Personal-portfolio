@@ -14,8 +14,13 @@ https://waithumbisamuel.pages.dev/
 ✅ Downloadable Resume – Easy access to my CV.
 
 🛠 Technologies Used
+
 Category	Technologies:
+
 Frontend:	HTML5, CSS3, JavaScript
+
 Icons:	Font Awesome
+
 Hosting:	cloudflare
+
 Form Handling:	Google Sheets (via submit-to-google-sheet)
