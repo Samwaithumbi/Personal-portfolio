@@ -1,11 +1,16 @@
 🌐 Live Demo
+
 https://waithumbisamuel.pages.dev/
 
 ✨ Features
 ✅ Responsive Design – Works on mobile, tablet, and desktop.
+
 ✅ Interactive UI – Smooth navigation and animations.
+
 ✅ Project Showcase – Displays my best work with GitHub & live links.
+
 ✅ Contact Form – Connected to Google Sheets for message collection.
+
 ✅ Downloadable Resume – Easy access to my CV.
 
 🛠 Technologies Used
